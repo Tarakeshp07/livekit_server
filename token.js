@@ -13,7 +13,7 @@ const express = require('express');
 const { AccessToken } = require('livekit-server-sdk');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3005;
 
 // Read API key/secret from environment with fallback to the values in the original file
 const API_KEY = process.env.LK_API_KEY || "APIFCg8ySkqfnH9";
